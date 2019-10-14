@@ -1,0 +1,44 @@
+nav {
+    color: #082753;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box
+}
+nav .header {
+    font-weight: bold;
+    font-size: 13px
+}
+.others, .image, .find {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px
+}
+nav img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 10px
+}
+nav .find, i {
+    color: rgba(128, 128, 128, 0.795);
+    margin-right: 10px;
+    font-size: 12px
+}
+nav input[type=text] {
+    border: none;
+    color: rgba(128, 128, 128, 0.795);
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    width: 100px
+}
+nav button{
+    background-color: inherit;
+    border: none;
+}
+nav i {
+    margin-left: 10px
+}
