@@ -2,3 +2,13 @@
     margin: 30px;
     box-sizing: border-box;
 }
+@media screen and (max-width: 768px){
+    .main {
+        margin: 15px;
+    }
+}
+@media screen and (max-width: 480px){
+    .main {
+        margin: 7px;
+    }
+}

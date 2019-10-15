@@ -3,8 +3,8 @@ import SideBar from "../SideBar"
 import Main from "../Main";
 import "./Home.css"
 
-const Home = ()=>{
-    return(
+const Home = () => {
+    return (
         <div className="home">
             <SideBar />
             <Main />

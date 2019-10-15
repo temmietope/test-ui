@@ -13,3 +13,49 @@ header h3{
 header {
     margin-top: 25px
 }
+
+@media screen and (max-width: 768px){
+    header small{
+        font-size: 6px;
+    }
+    header {
+        line-height: 0.5em
+    }
+    header h3{
+        font-size: 11px;
+    }
+    header {
+        margin-top: 12px
+    }
+}
+
+@media screen and (max-width: 640px){
+    header small{
+        font-size: 3px;
+    }
+    header {
+        line-height: 0.3em
+    }
+    header h3{
+        font-size: 7px;
+    }
+    header {
+        margin-top: 5px
+    }
+}
+
+@media screen and (max-width: 480px){
+    header small{
+        font-size: 2px;
+    }
+    header {
+        line-height: 0.06em
+    }
+    header h3{
+        font-size: 4px;
+    }
+    header {
+        margin-top: 7px;
+        margin-bottom: 10px
+    }
+}

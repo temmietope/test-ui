@@ -7,10 +7,10 @@ import "./Main.css"
 const Main = () => {
     return (
         <div className="main">
-            <Navigation/>
+            <Navigation />
             <Header />
             <Segment name="Meditations" />
-            <Segment name="PepTalks"/>
+            <Segment name="PepTalks" />
         </div>
     )
 }

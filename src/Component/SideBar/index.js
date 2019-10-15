@@ -5,8 +5,7 @@ const SideBar = () => {
     return (
         <aside>
             <ul>
-                {/* <span className="ellipsis"><i className="fas fa-ellipsis-h" /></span> */}
-                {/*  */}
+                <li className="ellipsis"><i className="fas fa-ellipsis-h" /></li>
                 <li><i className="fas fa-drum-steelpan" /><span>Overview</span></li>
                 <li><i className="fas fa-volume-up" /><span>Packs</span></li>
                 <li><i className="fas fa-music" /><span>Singles</span></li>
