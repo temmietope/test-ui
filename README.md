@@ -4,7 +4,7 @@
 
         > git clone https://github.com/temmietope/test-ui
 
-        > cd dashboard-ui
+        > cd test-ui
 
         > npm install
 
